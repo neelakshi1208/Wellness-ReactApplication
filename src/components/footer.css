@@ -1,0 +1,24 @@
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 0px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 100px;
+    /* Set the fixed height of the footer here */
+    background-color: #e7e7e7;
+    border-top: 1px solid #ddd;
+}
+
+footer .text-muted {
+    margin-top: 10px;
+}
+
+div.container-fluid {
+    margin-bottom: 0px;
+}
+
+/* Footer Styling end */

@@ -1,0 +1,41 @@
+.coach-login{
+    border: 1px solid rgba(53, 50, 50,0.5);
+    margin-left:800px;
+    width: 100%; 
+    max-width: 400px; 
+    padding: 20px;
+    margin: 10px auto; 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+.title{
+    color: black;
+}
+
+
+@media (min-width: 576px) {
+    .coach-login {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .coach-login {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .coach-login {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .coach-login {
+        max-width: 700px;
+    }
+}

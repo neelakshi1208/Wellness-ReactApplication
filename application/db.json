@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "name": "Neelakshi",
+      "password": "neel@123",
+      "gender": "F",
+      "dateOfBirth": "19977-08-12",
+      "email": "neel@gmail.com",
+      "mobileNumber": 9087654323,
+      "pincode": 560076,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    
+    {
+      "id": "051e",
+      "name": "Shatakshi",
+      "mobile": "9812243521",
+      "city": "Delhi",
+      "pincode": "234345",
+      "country": "India",
+      "password": "09876",
+      "confirmPassword": "09876",
+      "gender": "female",
+      "age": "21-30",
+      "state": "Maharashtra"
+    }
+  ],
+  "coaches": [
+    {
+      "id": "111",
+      "name": "Shivanshu",
+      "password": "shiv@1234",
+      "gender": "M",
+      "age": "21-30",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "id": "4110",
+      "name": "Neelakshi",
+      "age": "20-30",
+      "mobileNumber": "",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "gender": "female",
+      "speciality": "Therapy"
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2024-05-15",
+      "slot": "4 PM to 5 PM",
+      "userId": 101,
+      "coachId": 111,
+      "id": "1"
+    }
+  ]
+}

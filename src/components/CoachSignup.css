@@ -1,0 +1,96 @@
+.coach-signUp {
+    max-width: 800px;
+    margin: 5% auto;
+    margin-top:30px;
+    margin-right: 30px;
+    margin-left: 800px;
+    padding: 20px;
+    border-radius: 0px;
+    border: 1px solid rgba(53, 50, 50,0.5);
+    color: black;
+    @media (max-width: 768px) {
+      #coach-Signup-form {
+          max-width: 80%; /* Adjust the maximum width for smaller screens */
+      }
+    
+  }
+}
+#coach-Signup-form label{
+  color: #141414;
+}
+h2{
+  color:#141414;
+}
+  
+  .title{
+    text-align: center;
+    color: #141414;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    /* Form Input */
+  input, select {
+    width: 90%;
+    padding: 8px;
+    color: #141414;
+     
+  }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      color: #141414;
+    }
+    
+    
+    
+    .input-field {
+      padding: 10px;
+      border: 1px solid #141414;
+      border-radius: 4px;
+      font-size: 15px;
+      outline: none;
+    }
+    .form-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .form-row label {
+      margin-right: 10px;
+    }  
+    .error {
+      color: red;
+      margin-top: 5px;
+    }
+    
+    .text-muted credit{
+      color: rgb(12, 8, 0);
+      margin-top: 200px;
+    }
+    
+@media (min-width: 576px) {
+  .coach-signUp {
+      max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .coach-signUp {
+      max-width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .coach-signUp {
+      max-width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .coach-signUp {
+      max-width: 700px;
+  }
+}
+
+    

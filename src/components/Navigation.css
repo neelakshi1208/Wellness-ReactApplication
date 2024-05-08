@@ -1,0 +1,36 @@
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+ 
+  .navbar-brand img {
+    margin-left: 20px;
+    height: 30px;
+    margin-right: 10px; 
+  }
+  
+
+  .navbar-toggler {
+    border: none; 
+  }
+  
+
+  .nav-link {
+    color: #333; 
+    font-weight: bold;
+  }
+  
+
+  .navbar-nav .nav-link  {
+    margin-left: 10px; 
+  }
+  .fa-phone{
+    margin-left:1000px;
+  }
+  Modal.body{
+    background-color: #333;
+    color:black;
+  }
+  
